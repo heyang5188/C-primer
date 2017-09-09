@@ -10,7 +10,6 @@ Bulk_quote::Bulk_quote(const Bulk_quote &rhs):Disc_quote(rhs)
 
 Bulk_quote& Bulk_quote::operator=(const Bulk_quote & rhs)
 {
-
 	std::cout << "Bulk_quote operator called" << std::endl;
 	Disc_quote::operator=(rhs);
 	return *this;
