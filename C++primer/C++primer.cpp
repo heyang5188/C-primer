@@ -27,6 +27,7 @@ std::allocator<std::string> StrVec::alloc;
 void  debug( const Quote & item)
 {
 	item.debug();
+	//asdoiabandent;
 }
 
 int  main()
